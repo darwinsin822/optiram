@@ -11,7 +11,7 @@ description: >-
 
 # 🧠 OptiRAM — Optimizador Universal de Memoria RAM (DarwinSin)
 
-**OptiRAM** es la skill universal de gestión, contención y optimización de memoria RAM para cualquier tipo de proyecto y entorno en Linux Mint / Antigravity.
+**OptiRAM** es la skill universal de gestión, contención y optimización de memoria RAM para cualquier tipo de proyecto y entorno en Linux Mint / Antigravity 2.0.
 
 ---
 

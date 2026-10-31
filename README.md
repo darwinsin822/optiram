@@ -6,7 +6,7 @@
 <img src="./assets/optiram.jpg" alt="OptiRAM Engine Banner" width="380px" style="border-radius: 12px; margin: 16px 0; box-shadow: 0 8px 24px rgba(0,0,0,0.5);" />
 
 [![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Compatible](https://img.shields.io/badge/Antigravity_Skill-Verified-blue.svg)](https://github.com/darwinsin822/optiram)
+[![Compatible](https://img.shields.io/badge/Antigravity%202.0_Skill-Verified-blue.svg)](https://github.com/darwinsin822/optiram)
 [![Kernel Telemetry](https://img.shields.io/badge/Telemetry-Realtime_Diagnostics-cyan.svg)](#-evidencia-de-ejecución-en-vivo)
 [![CI](https://img.shields.io/badge/CI-Passing-brightgreen.svg)](scripts/ci.sh)
 
@@ -40,7 +40,7 @@ A continuación se muestra la telemetría real obtenida por el motor de diagnós
 
 ## 🚀 Instalación y Despliegue Rápido
 
-Para instalar OptiRAM globalmente en tu sistema (`~/.local/bin/optiram`) y como skill en Google Antigravity:
+Para instalar OptiRAM globalmente en tu sistema (`~/.local/bin/optiram`) y como skill en Google Antigravity 2.0:
 
 ```bash
 git clone https://github.com/darwinsin822/optiram.git

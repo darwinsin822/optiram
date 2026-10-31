@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ==============================================================================
-# OptiRAM — Instalador Automatizado e Idempotente para Google Antigravity & Linux
+# OptiRAM — Instalador Automatizado e Idempotente para Google Antigravity 2.0 & Linux
 # ==============================================================================
 set -euo pipefail
 
@@ -9,7 +9,7 @@ REPO_DIR="$(dirname "$SCRIPT_DIR")"
 SKILL_DIR="${HOME}/.gemini/config/skills/optiram"
 BIN_DIR="${HOME}/.local/bin"
 
-echo "🧠 Instalando OptiRAM en Google Antigravity y entorno local..."
+echo "🧠 Instalando OptiRAM en Google Antigravity 2.0 y entorno local..."
 
 # 1. Instalar Skill en Antigravity
 mkdir -p "$SKILL_DIR/scripts" "$SKILL_DIR/assets"
