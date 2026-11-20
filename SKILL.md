@@ -2,7 +2,8 @@
 name: optiram
 description: >-
   Optimizador Universal de Memoria RAM y Procesos para TODOS los proyectos (Android/Gradle,
-  Node.js/Next/Vite, Python/ML, Rust/Cargo, C/C++). Actívalo cuando el usuario diga "optiram",
+  Node.js/Next/Vite, Python/ML, Rust/Cargo, C/C++). Skill universal compatible con cualquier entorno:
+  Claude Code, OpenAI Codex, Google Antigravity, OpenCode, Cursor, etc. Actívalo cuando el usuario diga "optiram",
   "optimizar ram", "liberar ram", "bajar consumo de ram", "optimiza la ram", "optimiza esta tarea",
   o cuando una tarea o compilación esté saturando la memoria del sistema. Detiene procesos
   y daemons devoradores de RAM huérfanos, auto-afina la configuración de proyectos para presupuestos
@@ -12,6 +13,20 @@ description: >-
 # 🧠 OptiRAM — Optimizador Universal de Memoria RAM (DarwinSin)
 
 **OptiRAM** es la skill universal de gestión, contención y optimización de memoria RAM para cualquier tipo de proyecto y entorno en Linux Mint / Antigravity 2.0.
+
+---
+
+## 🌐 COMPATIBILIDAD UNIVERSAL MULTI-ENTORNO
+
+OptiRAM opera de forma agnóstica al arnés de ejecución de IA, protegiendo los recursos del sistema en cualquier entorno:
+
+| Entorno / Herramienta | Modo de Integración y Operación |
+| :--- | :--- |
+| **🤖 Google Antigravity (AGY 2.0)** | Integración nativa como Skill en `.gemini/config/skills/optiram/` y CLI global `optiram`. Se activa vía chat (`optiram`, `optimizar ram`, `liberar ram`). |
+| **🧠 Claude Code (Anthropic)** | Desplegable en `~/.claude/skills/optiram` o ejecutable desde su bash tool mediante el comando global `optiram` antes de compilaciones pesadas. |
+| **⚡ OpenCode CLI** | Compatible con ejecución autónoma en terminal con OpenCode CLI (`opencode`), invocando rutinas de contención y telemetría de memoria. |
+| **⚙️ OpenAI Codex / ChatGPT** | Aplicable en Custom Instructions o entornos con terminal para gestionar cuotas de memoria de compilación y pruebas. |
+| **💻 Cursor / VS Code / Windsurf** | Utilizable desde la terminal integrada o tareas de build (`tasks.json`) para prevenir cuelgues del IDE por desbordamiento de RAM. |
 
 ---
 

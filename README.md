@@ -6,13 +6,29 @@
 <img src="./assets/optiram.jpg" alt="OptiRAM Engine Banner" width="380px" style="border-radius: 12px; margin: 16px 0; box-shadow: 0 8px 24px rgba(0,0,0,0.5);" />
 
 [![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Compatible](https://img.shields.io/badge/Antigravity%202.0_Skill-Verified-blue.svg)](https://github.com/darwinsin822/optiram)
+[![Environment](https://img.shields.io/badge/Environment-Universal_(Claude_Code_|_Codex_|_Antigravity_|_OpenCode)-blueviolet.svg)](#-compatibilidad-universal-multi-entorno)
 [![Kernel Telemetry](https://img.shields.io/badge/Telemetry-Realtime_Diagnostics-cyan.svg)](#-evidencia-de-ejecución-en-vivo)
 [![CI](https://img.shields.io/badge/CI-Passing-brightgreen.svg)](scripts/ci.sh)
 
 </div>
 
-**OptiRAM** es la herramienta y skill universal de contención de memoria RAM, diagnóstico de procesos y afinamiento automático de entornos de desarrollo (Android/Gradle, Node.js/Next/Vite, Python/ML, Rust/Cargo y C/C++). Previene la saturación del sistema, elimina procesos devoradores de RAM huérfanos y aplica presupuestos de memoria estrictos antes de que el kernel sufra congelamientos por swap.
+**OptiRAM** es la herramienta y skill universal de contención de memoria RAM, diagnóstico de procesos y afinamiento automático de entornos de desarrollo (Android/Gradle, Node.js/Next/Vite, Python/ML, Rust/Cargo y C/C++) para cualquier entorno asistido por Inteligencia Artificial (**Claude Code, OpenAI Codex, Google Antigravity 2.0, OpenCode CLI, Cursor, etc.**).
+
+Previene la saturación del sistema, elimina procesos devoradores de RAM huérfanos y aplica presupuestos de memoria estrictos antes de que el kernel sufra congelamientos por swap.
+
+---
+
+## 🌐 Compatibilidad Universal Multi-Entorno
+
+OptiRAM protege el entorno de ejecución en cualquier herramienta de desarrollo asistida por IA:
+
+| Entorno / Plataforma | Integración y Despliegue |
+| :--- | :--- |
+| **🤖 Google Antigravity (AGY 2.0)** | Integración nativa como Skill en `~/.gemini/config/skills/optiram/` y comando global `optiram`. Activación por chat o subagentes. |
+| **🧠 Claude Code (Anthropic)** | Compatible como skill de CLI en `~/.claude/skills/optiram` o ejecutando `optiram` directamente desde el terminal de Claude. |
+| **⚡ OpenCode CLI** | Compatible con ejecución en terminal con OpenCode CLI (`opencode`) para salvaguardar la RAM durante builds pesados. |
+| **⚙️ OpenAI Codex / ChatGPT** | Utilizable en sandboxes y sesiones con acceso a bash para limitar heaps de JVM y compiladores paralelos. |
+| **💻 Cursor / VS Code / Windsurf** | Configurable en `.cursorrules` o terminal integrado para evitar que compiladores saturen el editor de código. |
 
 ---
 
